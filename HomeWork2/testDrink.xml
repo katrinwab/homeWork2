@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements>
+  <elem cost="10" count="5">Чай</elem>
+  <elem cost="15" count="3">Кофе</elem>
+  <elem cost="12" count="10">Молоко</elem>
+  <elem cost="15" count="7">Какао</elem>
+  <elem cost="11" count="15">Сок</elem>
+  <elem cost="5" count="6">Вода</elem>
+  <elem cost="20" count="12">Горячий шоколад</elem>
+  <elem cost="14" count="8">Йогурт</elem>
+  <elem cost="15" count="20">Газировка</elem>
+  <elem cost="17" count="7">Кефир</elem>
+</Elements>

@@ -1,0 +1,8 @@
+bin
+packages
+*.sln
+*.suo
+git
+bin
+obj
+Properties

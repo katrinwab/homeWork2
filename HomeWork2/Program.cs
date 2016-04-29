@@ -8,9 +8,9 @@ namespace HomeWork2
         static void Main(string[] args)
         {
             var uc = new UnityContainer();
-            uc.LoadConfiguration("DrinkConst");
+            uc.LoadConfiguration();
             var prov = uc.Resolve<IProvider>();
-            prov.GetInformation();
+            var list = prov.GetInformation();
         }
     }
 }

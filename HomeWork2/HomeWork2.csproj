@@ -56,18 +56,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SubjectList\DrinkXmlList.cs" />
-    <Compile Include="Subject\Coin.cs" />
-    <Compile Include="SubjectList\CoinConstList.cs" />
-    <Compile Include="SubjectList\CoinXmlList.cs" />
-    <Compile Include="Subject\Drink.cs" />
-    <Compile Include="SubjectList\DrinkConstList.cs" />
-    <Compile Include="Subject\ISubject.cs" />
-    <Compile Include="SubjectList\ISubjectList.cs" />
+    <Compile Include="Coin\Coin.cs" />
+    <Compile Include="Coin\CoinConstList.cs" />
+    <Compile Include="Coin\CoinXmlList.cs" />
+    <Compile Include="Coin\ICoinList.cs" />
+    <Compile Include="Drink\Drink.cs" />
+    <Compile Include="Drink\DrinkConstList.cs" />
+    <Compile Include="Drink\DrinkXmlList.cs" />
+    <Compile Include="Drink\IDrinkList.cs" />
+    <Compile Include="IProvider.cs" />
+    <Compile Include="ISubject.cs" />
+    <Compile Include="ProviderCoin.cs" />
+    <Compile Include="ProviderDrink.cs" />
+    <Compile Include="SubjectXmlList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Provider.cs" />
-    <Compile Include="SubjectList\SubjectXmlList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -77,6 +80,7 @@
     <Content Include="testCoin.xml" />
     <Content Include="testDrink.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

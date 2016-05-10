@@ -1,8 +1,8 @@
 ﻿namespace HomeWork2.Drink
 {
-    class Drink: ISubject
+    class DrinkObject
     {
-        public Drink(int cost, int count, string name)
+        public DrinkObject(int cost, int count, string name)
         {
             Name = name;
             Count = count;

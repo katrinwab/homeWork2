@@ -7,7 +7,7 @@ namespace HomeWork2.Drink
     {
         public DrinkXmlList(string nameXml) : base(nameXml)
         {
-            List = new List<Drink>();
+            List = new List<DrinkObject>();
             Init();
         }
 
@@ -16,9 +16,9 @@ namespace HomeWork2.Drink
             var cost = int.Parse(node.Attributes["cost"].Value);
             var count = int.Parse(node.Attributes["count"].Value);
             var name = node.InnerText;
-            List.Add(new Drink(cost, count, name));
+            List.Add(new DrinkObject(cost, count, name));
         }
 
-        public List<Drink> List { get; set; }
+        public List<DrinkObject> List { get; set; }
     }
 }

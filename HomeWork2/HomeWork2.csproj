@@ -56,16 +56,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coin\Coin.cs" />
+    <Compile Include="Coin\CoinObject.cs" />
     <Compile Include="Coin\CoinConstList.cs" />
     <Compile Include="Coin\CoinXmlList.cs" />
     <Compile Include="Coin\ICoinList.cs" />
-    <Compile Include="Drink\Drink.cs" />
+    <Compile Include="Drink\DrinkObject.cs" />
     <Compile Include="Drink\DrinkConstList.cs" />
     <Compile Include="Drink\DrinkXmlList.cs" />
     <Compile Include="Drink\IDrinkList.cs" />
-    <Compile Include="IProvider.cs" />
-    <Compile Include="ISubject.cs" />
     <Compile Include="ProviderCoin.cs" />
     <Compile Include="ProviderDrink.cs" />
     <Compile Include="SubjectXmlList.cs" />

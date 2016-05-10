@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using HomeWork2.Coin;
 
 namespace HomeWork2
 {
-    class ProviderCoin : IProvider
+    class ProviderCoin
     {
         private readonly ICoinList _coinList;
 
@@ -13,9 +12,9 @@ namespace HomeWork2
             _coinList = coinList;
         }
 
-        public List<ISubject> GetInformation()
+        public List<CoinObject> GetInformation()
         {
-            return _coinList.List.Cast<ISubject>().ToList();
+            return _coinList.List;
         }
     }
 }

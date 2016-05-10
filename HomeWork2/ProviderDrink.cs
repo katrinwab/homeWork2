@@ -4,7 +4,7 @@ using HomeWork2.Drink;
 
 namespace HomeWork2
 {
-    class ProviderDrink: IProvider
+    class ProviderDrink
     {
         private readonly IDrinkList _drinkList;
 
@@ -13,9 +13,9 @@ namespace HomeWork2
             _drinkList = drinkList;
         }
 
-        public List<ISubject> GetInformation()
+        public List<DrinkObject> GetInformation()
         {
-            return _drinkList.List.Cast<ISubject>().ToList();
+            return _drinkList.List;
         }
     }
 }
